@@ -1,4 +1,4 @@
-package Knowledge.DataStructure_Algorithms.Index;
+package Knowledge.DataStructure_Algorithms.Index.BinarySearchTree;
 
 public class TreeTraversal<T extends Comparable<T>> {
     public void preOrder(TreeNode<T> root) {

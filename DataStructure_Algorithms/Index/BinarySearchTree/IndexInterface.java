@@ -1,4 +1,4 @@
-package Knowledge.DataStructure_Algorithms.Index;
+package Knowledge.DataStructure_Algorithms.Index.BinarySearchTree;
 
 public interface IndexInterface<T extends Comparable<T>> {
     public void insert(T x);

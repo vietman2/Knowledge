@@ -1,4 +1,4 @@
-package Knowledge.DataStructure_Algorithms.Index;
+package Knowledge.DataStructure_Algorithms.Index.BinarySearchTree;
 
 public class TreeNode<T extends Comparable<T>> {
     public T item;

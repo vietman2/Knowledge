@@ -1,4 +1,4 @@
-package Knowledge.DataStructure_Algorithms.Index;
+package Knowledge.DataStructure_Algorithms.Index.BinarySearchTree;
 
 public class MyBinarySearchTree<T extends Comparable<T>> implements IndexInterface<T> {
     private TreeNode<T> root;
