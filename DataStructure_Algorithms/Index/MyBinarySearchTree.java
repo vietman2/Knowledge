@@ -81,4 +81,9 @@ public class MyBinarySearchTree<T extends Comparable<T>> implements IndexInterfa
         else if (x.compareTo(t.item) < 0) return searchItem(t.left, x);
         else return searchItem(t.right, x);
     }
+
+    public int size(TreeNode<T> t) {
+        if (t == null) return 0;
+        else return 1 + size(t.left) + size(t.right);
+    }
 }
