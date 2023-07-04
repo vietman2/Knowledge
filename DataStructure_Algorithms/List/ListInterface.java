@@ -1,4 +1,4 @@
-package Knowledge.DataStructure.Lists;
+package Knowledge.DataStructure_Algorithms.List;
 
 public interface ListInterface<T> {
     // ADT 리스트

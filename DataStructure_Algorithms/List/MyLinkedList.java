@@ -1,6 +1,6 @@
-package Knowledge.DataStructure.Lists.LinkedList;
+package Knowledge.DataStructure_Algorithms.List;
 
-import Knowledge.DataStructure.Lists.ListInterface;
+import Knowledge.DataStructure_Algorithms.Common.Node;
 
 public class MyLinkedList<E extends Comparable<E>> implements ListInterface<E> {
     private Node<E> head;

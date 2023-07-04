@@ -1,6 +1,4 @@
-package Knowledge.DataStructure.Lists.ArrayList;
-
-import Knowledge.DataStructure.Lists.ListInterface;
+package Knowledge.DataStructure_Algorithms.List;
 
 public class MyArrayList<T> implements ListInterface<T> {
     private T[] items;

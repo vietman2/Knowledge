@@ -1,4 +1,4 @@
-package Knowledge.DataStructure.Lists.LinkedList;
+package Knowledge.DataStructure_Algorithms.Common;
 
 public class Node<E> {
     public E item;
