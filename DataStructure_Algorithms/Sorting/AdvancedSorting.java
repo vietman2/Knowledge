@@ -2,6 +2,7 @@ package Knowledge.DataStructure_Algorithms.Sorting;
 
 public class AdvancedSorting {
     public static int[] mergeSort(int[] array, int p, int r) {
+        // Also known as divide-and-conquer method
         if (p < r) {
             int q = (p + r) / 2;                // 중간 위치를 계산한다
 
@@ -46,6 +47,7 @@ public class AdvancedSorting {
     }
 
     public static int[] QuickSort(int[] array, int p, int r) {
+        // This is also an example of divide-and-conquer method
         if (p < r) {
             int q = partition(array, p, r);     // 분할
 
