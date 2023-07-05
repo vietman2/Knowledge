@@ -39,23 +39,5 @@ public class SpecialSorting {
         return result;
     }
 
-    public static int[] bucketSort(int[] arr) {
-        int[] result = new int[arr.length];
-        int[] count = new int[100];
 
-        for (int i = 0; i < arr.length; i++) {
-            count[arr[i]]++;
-        }
-
-        int index = 0;
-        for (int i = 0; i < count.length; i++) {
-            while (count[i] > 0) {
-                result[index++] = i;
-                count[i]--;
-            }
-        }
-
-        return result;
-    }
-    
 }
